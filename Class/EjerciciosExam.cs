@@ -57,5 +57,33 @@ namespace Examen_de_estrurura_de_datos_unidad2.Class
 
 
         }
+        public void CURP()
+        {
+            string[] array = new string[18];
+            string sexo=" ";
+
+            for(int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine("Ingresar su CURP");
+                array[i] = Console.ReadLine();
+                if (array[11]=="H")
+                {
+                    sexo = "Hombre";
+                }
+                else
+                { 
+                    sexo = "Mujer"; 
+                }
+
+
+            }
+            Console.WriteLine($"Su sexo es: {sexo}");
+
+        }
+        public void CalificacionesGrupar()
+        {
+
+        }
+
     }
 }
