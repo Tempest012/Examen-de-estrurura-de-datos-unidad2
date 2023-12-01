@@ -10,6 +10,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             EjerciciosExam ejercicios = new EjerciciosExam();
             ejercicios.Vendedores();
             ejercicios.CURP();
+            ejercicios.CalificacionesGrupar();
         }
 
     }
